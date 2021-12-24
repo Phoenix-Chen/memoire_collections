@@ -1,0 +1,50 @@
+[
+  {
+    "command": "poetry new {project_name}",
+    "annotation": "Create a new Poetry project in the directory with a specific name",
+    "tags": [
+      ""
+    ],
+    "collection": "poetry"
+  },
+  {
+    "command": "poetry init",
+    "annotation": "Interactively initialize the current directory as a new Poetry project",
+    "tags": [
+      ""
+    ],
+    "collection": "poetry"
+  },
+  {
+    "command": "poetry update",
+    "annotation": "Get the latest version of all dependencies and update poetry.lock",
+    "tags": [
+      ""
+    ],
+    "collection": "poetry"
+  },
+  {
+    "command": "poetry run {command}",
+    "annotation": "Execute a command inside the project's virtual environment",
+    "tags": [
+      ""
+    ],
+    "collection": "poetry"
+  },
+  {
+    "command": "poetry add {package_name=^version}",
+    "annotation": "Install a dependency and its subdependencies",
+    "tags": [
+      ""
+    ],
+    "collection": "poetry"
+  },
+  {
+    "command": "poetry env info",
+    "annotation": "Displays information about the current environment",
+    "tags": [
+      ""
+    ],
+    "collection": "poetry"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "command": "pyenv install {version}",
+    "annotation": "Install a Python version under the ${PYENV_ROOT}/versions directory",
+    "tags": [
+      ""
+    ],
+    "collection": "pyenv"
+  },
+  {
+    "command": "pyenv uninstall {version}",
+    "annotation": "Uninstall a Python version under the ${PYENV_ROOT}/versions directory",
+    "tags": [
+      ""
+    ],
+    "collection": "pyenv"
+  },
+  {
+    "command": "pyenv global {version}",
+    "annotation": "Set Python version to be used globally in the current machine",
+    "tags": [
+      ""
+    ],
+    "collection": "pyenv"
+  },
+  {
+    "command": "pyenv local {version}",
+    "annotation": "Set Python version to be used in the current directory and all directories below it",
+    "tags": [
+      ""
+    ],
+    "collection": "pyenv"
+  },
+  {
+    "command": "pyenv update",
+    "annotation": "Update pyenv",
+    "tags": [
+      ""
+    ],
+    "collection": "pyenv"
+  }
+]

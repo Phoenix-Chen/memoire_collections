@@ -1,0 +1,26 @@
+[
+  {
+    "command": "doppler login",
+    "annotation": "Authenticate to Doppler",
+    "tags": [
+      ""
+    ],
+    "collection": "doppler"
+  },
+  {
+    "command": "doppler setup",
+    "annotation": "Setup the Doppler CLI for managing secrets",
+    "tags": [
+      ""
+    ],
+    "collection": "doppler"
+  },
+  {
+    "command": "doppler run --command=''",
+    "annotation": "Run a command with secrets injected into the environment",
+    "tags": [
+      ""
+    ],
+    "collection": "doppler"
+  }
+]
