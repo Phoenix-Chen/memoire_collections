@@ -1,0 +1,38 @@
+[
+  {
+    "command": "redis-cli",
+    "annotation": "Connect to the local server",
+    "tags": [],
+    "collection": "redis-cli"
+  },
+  {
+    "command": "redis-cli {{redis_command}}",
+    "annotation": "Execute Redis command",
+    "tags": [],
+    "collection": "redis-cli"
+  },
+  {
+    "command": "redis-cli -u {{uri}}",
+    "annotation": "Connect to a remote server specifying an URI",
+    "tags": [],
+    "collection": "redis-cli"
+  },
+  {
+    "command": "redis-cli -a {{password}}",
+    "annotation": "Specify a password",
+    "tags": [],
+    "collection": "redis-cli"
+  },
+  {
+    "command": "redis-cli -h {{host}} -p {{port}}",
+    "annotation": "Connect to a remote server specifying a port number",
+    "tags": [],
+    "collection": "redis-cli"
+  },
+  {
+    "command": "redis-cli -h {{host}}",
+    "annotation": "Connect to a remote server on the default port (6379)",
+    "tags": [],
+    "collection": "redis-cli"
+  }
+]
